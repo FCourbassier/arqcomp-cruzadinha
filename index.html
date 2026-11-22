@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b35">
+  <meta name="description" content="Jogo de cruzadinha para praticar conceitos de Arquitetura Computacional.">
+  <title>Desafio da Arquitetura | Cruzadinha</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">ARQUITETURA COMPUTACIONAL · SPRINT 3</p>
+      <h1>Desafio da <span>Arquitetura</span></h1>
+      <p class="subtitle">Cruze as pistas, complete o tabuleiro e teste seus conhecimentos.</p>
+      <div class="hero-meta"><span>16 conceitos</span><span>Horizontais e verticais</span><span>HTML · CSS · JavaScript</span></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro panel">
+      <div>
+        <p class="section-kicker">COMO JOGAR</p>
+        <h2>Descubra os termos</h2>
+        <p>Selecione uma casa e digite uma letra. As palavras se cruzam: uma mesma letra pode fazer parte de uma resposta horizontal e outra vertical.</p>
+      </div>
+      <div class="score-card" aria-live="polite">
+        <span class="score-label">SEU RESULTADO</span>
+        <strong id="score">0 <small>/ 16</small></strong>
+        <span id="score-message">Boa sorte!</span>
+      </div>
+    </section>
+
+    <section class="game-layout">
+      <div class="board-panel panel">
+        <div class="panel-heading">
+          <div><p class="section-kicker">TABULEIRO</p><h2>Preencha as casas</h2></div>
+          <span class="board-hint">Use letras sem acento</span>
+        </div>
+        <div class="board-scroll">
+          <div id="crossword" class="crossword" role="group" aria-label="Tabuleiro da cruzadinha"></div>
+        </div>
+        <div class="actions">
+          <button id="check-btn" class="btn btn-primary" type="button">Conferir respostas</button>
+          <button id="reset-btn" class="btn btn-secondary" type="button">Reiniciar</button>
+        </div>
+        <p id="feedback" class="feedback" aria-live="polite">Complete as palavras e clique em Conferir respostas.</p>
+      </div>
+
+      <aside class="clues">
+        <section class="panel clue-panel">
+          <p class="section-kicker">PISTAS</p><h2>Horizontais</h2>
+          <ol id="across-clues" class="clue-list"></ol>
+        </section>
+        <section class="panel clue-panel">
+          <p class="section-kicker">PISTAS</p><h2>Verticais</h2>
+          <ol id="down-clues" class="clue-list"></ol>
+        </section>
+      </aside>
+    </section>
+    <footer><span>Desafio da Arquitetura</span><span>Aprender é conectar conceitos.</span></footer>
+  </main>
+</body>
+</html>
