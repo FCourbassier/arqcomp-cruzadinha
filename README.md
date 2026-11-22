@@ -18,7 +18,16 @@ Jogo educativo de cruzadinha sobre Arquitetura Computacional, desenvolvido com H
 - Clique em Conferir para verificar suas respostas.
 - Acompanhe sua pontuação pelo contador de acertos.
 - Utilize Reiniciar para começar novamente.
+## Recursos do jogo
 
+- Tabuleiro interativo.
+- Preenchimento direto das letras.
+- Pistas horizontais e verticais.
+- Verificação automática das respostas.
+- Identificação de palavras corretas e incorretas.
+- Contador de acertos.
+- Opção para reiniciar a partida.
+- Layout adaptável para diferentes telas.
 ## Palavras e pistas
 
 As pistas foram elaboradas a partir do material didático `material.jogo.pdf`. As respostas no tabuleiro usam letras maiúsculas, sem acentos e sem espaços.
