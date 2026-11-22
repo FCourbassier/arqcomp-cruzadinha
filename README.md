@@ -28,6 +28,13 @@ Jogo educativo de cruzadinha sobre Arquitetura Computacional, desenvolvido com H
 - Contador de acertos.
 - Opção para reiniciar a partida.
 - Layout adaptável para diferentes telas.
+
+## Objetivo do jogo
+
+O objetivo é testar os conhecimentos sobre Arquitetura Computacional,
+identificando os principais componentes e conceitos estudados em aula.
+
+O jogador deve resolver as pistas e preencher corretamente o tabuleiro.
 ## Palavras e pistas
 
 As pistas foram elaboradas a partir do material didático `material.jogo.pdf`. As respostas no tabuleiro usam letras maiúsculas, sem acentos e sem espaços.
