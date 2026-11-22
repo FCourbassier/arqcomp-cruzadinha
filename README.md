@@ -10,6 +10,14 @@ Jogo educativo de cruzadinha sobre Arquitetura Computacional, desenvolvido com H
 4. Clique em **Conferir respostas** para ver as palavras corretas e as que precisam de revisão.
 5. O contador mostra quantas palavras foram resolvidas.
 6. Clique em **Reiniciar** para limpar o tabuleiro e começar novamente.
+   ## Dicas para jogar
+
+- Leia as pistas horizontais e verticais.
+- Clique nas casas do tabuleiro para preencher as letras.
+- Utilize as pistas para descobrir cada palavra.
+- Clique em Conferir para verificar suas respostas.
+- Acompanhe sua pontuação pelo contador de acertos.
+- Utilize Reiniciar para começar novamente.
 
 ## Palavras e pistas
 
@@ -49,33 +57,7 @@ arqcomp-cruzadinha/
 └── README.md
 ```
 
-## Publicação no GitHub Pages
 
-1. Crie um repositório **público** chamado `arqcomp-cruzadinha`.
-2. Envie os arquivos deste projeto para a raiz da branch `main`.
-3. No GitHub, abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Selecione a branch `main` e a pasta `/ (root)` e clique em **Save**.
-6. Aguarde a publicação e teste o endereço em uma janela anônima.
-
-O endereço esperado será:
-
-`https://SEU-USUARIO.github.io/arqcomp-cruzadinha/`
-
-Substitua `SEU-USUARIO` pelo seu nome de usuário do GitHub. Atualize este README com o endereço real depois da publicação.
-
-## Commits
-
-O enunciado solicita pelo menos 6 commits, em pelo menos 2 dias diferentes. Use mensagens no padrão indicado:
-
-1. `feat: cria estrutura inicial do jogo`
-2. `feat: adiciona tabuleiro com palavras cruzadas`
-3. `feat: adiciona pistas horizontais e verticais`
-4. `feat: implementa verificacao das respostas`
-5. `style: finaliza visual e interatividade do jogo`
-6. `docs: adiciona README com instrucoes`
-
-**Importante:** não altere datas nem simule commits antigos. O histórico deve refletir o trabalho real. O enunciado pede dois dias diferentes; se a entrega precisa ocorrer hoje, confirme com o professor como proceder com esse requisito.
 
 ## Referência do conteúdo
 
