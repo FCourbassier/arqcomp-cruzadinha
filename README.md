@@ -35,6 +35,13 @@ O objetivo é testar os conhecimentos sobre Arquitetura Computacional,
 identificando os principais componentes e conceitos estudados em aula.
 
 O jogador deve resolver as pistas e preencher corretamente o tabuleiro.
+
+
+## Como funciona a pontuação
+
+Cada palavra preenchida corretamente conta como um acerto.
+O resultado é atualizado ao clicar no botão Conferir.
+As palavras incorretas podem ser corrigidas até completar o desafio.
 ## Palavras e pistas
 
 As pistas foram elaboradas a partir do material didático `material.jogo.pdf`. As respostas no tabuleiro usam letras maiúsculas, sem acentos e sem espaços.
